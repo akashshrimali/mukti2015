@@ -931,7 +931,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', end
 		text-align: center;
 		padding: 0.5em 0 0.5em 0;
 		z-index: 10;
-		overflow: hidden;
 		border: 1px solid rgba(230,230,230,0.7);
 		transition:all 0.7s;
 		background: rgba(92, 90, 122, 0.2);
