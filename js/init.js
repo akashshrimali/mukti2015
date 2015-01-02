@@ -329,7 +329,7 @@ $(document).ready(function(){
 
 if(is_chrome)
 {
-	var off1=$('#header').outerHeight()+100;
+			var off1=$('#header').outerHeight()+100;
 			var off2=off1+ $('.carousel').outerHeight() + $('#banner').outerHeight();
 			var off3=off2+ $('.mktivid').outerHeight()+90;
 			var off4=off3+ $('#tlks').outerHeight();
