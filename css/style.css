@@ -277,7 +277,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37354f', end
 				width: 100%;
 				margin: 0 0 2em 0;
 				position: relative;
-
+				overflow: hidden;
 			}
 			.image.featured img:hover
 			{
@@ -931,6 +931,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', end
 		text-align: center;
 		padding: 0.5em 0 0.5em 0;
 		z-index: 10;
+		overflow: hidden;
 		border: 1px solid rgba(230,230,230,0.7);
 		transition:all 0.7s;
 		background: rgba(92, 90, 122, 0.2);
@@ -1218,6 +1219,7 @@ box-shadow:         3px 3px 13px 0px rgba(50, 50, 50, 0.35);
 	#footer
 	{
 		position: relative;
+		overflow: hidden;
 		padding: 6em 0 6em 0;
 		background: #2b252c;
 		color: #fff;
@@ -1280,7 +1282,7 @@ box-shadow:         3px 3px 13px 0px rgba(50, 50, 50, 0.35);
 	.carousel
 	{
 		position: relative;
-
+		overflow: hidden;
 		padding: 1em 0 2em 0;
 		margin-bottom: 0;
 	}
@@ -1407,7 +1409,7 @@ box-shadow:         3px 3px 13px 0px rgba(50, 50, 50, 0.35);
 				width: auto;
 				margin-right: -2em;
 				margin-bottom: 3em;
-				
+				overflow: hidden;
 				border-top:5px solid rgba(72, 189, 130,0.99);
 			}
 			.carousel article .image img:hover
