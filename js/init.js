@@ -304,6 +304,15 @@
 
 })(jQuery);
 
+function onReady(callback) {
+    var intervalID = window.setInterval(checkReady, 1000);
+    function checkReady() {
+        if (document.getElementsByTagName('body')[0] !== undefined) {
+            window.clearInterval(intervalID);
+            callback.call(this);
+        }
+    }
+}
 
 $(document).ready(function(){
 	
@@ -316,6 +325,8 @@ $(document).ready(function(){
 	var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 	var is_firefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
 
+
+
 if(is_chrome)
 {
 	var off1=$('#header').outerHeight()+100;
@@ -326,14 +337,14 @@ if(is_chrome)
 	
 if(is_firefox)
 {
-	var off1=$('#banner').offset().top - 100;
-	var off2=$('#mktivideo').offset().top - 100;
-	var off3=$('#tlks').offset().top - 100;
-	var off4=$('#abt').offset().top - 100;
+	var off1=$('#banner').offset().top + 20;
+	var off2=$('#mktivideo').offset().top + 20;
+	var off3=$('#tlks').offset().top + 20;
+	var off4=$('#abt').offset().top + 20;
 	
 }
 	
-			
+		
 			
 	var nav=$('#nav,.dropotron');
 	var dropt=$('.dropotron li');
