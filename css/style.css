@@ -924,7 +924,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', end
 
 	#nav
 	{
-		
+		position: fixed;
 		top: 2%;
 		left: 2.5%;
 		width: 95%;
