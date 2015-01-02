@@ -316,6 +316,7 @@ function onReady(callback) {
 
 $(document).ready(function(){
 	
+	alert("This site is best viewed in Chrome and/or Opera")
 	var width=$('.muktivid').outerWidth();
 	var height=width*0.5625;
 	$('.muktivid').css("height",height);
@@ -324,7 +325,6 @@ $(document).ready(function(){
 	
 	var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 	var is_firefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
-	alert(is_firefox);
 
 
 
