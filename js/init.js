@@ -333,12 +333,12 @@ if(is_chrome)
 			var off2=off1+ $('.carousel').outerHeight() + $('#banner').outerHeight();
 			var off3=off2+ $('.mktivid').outerHeight()+90;
 			var off4=$('#abt').offset().top + 20;
-			
-}
-	$('#nav').click(function(){
+			$('#nav').click(function(){
 				alert(off4);
 				
 			});
+}
+	
 if(is_firefox)
 {
 	var off1=$('#banner').offset().top + 20;
