@@ -16,11 +16,18 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-desktop.css" />
 			<link rel="stylesheet" href="css/font-awesome.min.css" />
+			<link rel="stylesheet" href="css/jpreloader.css" />
 			<link rel="stylesheet" href="css/style-noscript.css" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
+		
+		<div class="ole">
+			<section id="jSplash">
+				<div id="circle"> </div>
+			</section>
+		</div>
 		<!-- Menu button -->
 	<!--	<span class="menuicon icon fa-bars" id="bars">
 			<ul>
@@ -34,6 +41,9 @@
 									</li>
 									</ul>
 	</span> -->
+	
+	
+		<div></div>
 		<!-- Header -->
 			<div id="header">
 				<nav id="nav">
@@ -70,14 +80,15 @@
 							<li><a href="#tlks" class="scrolly">Talks</a></li>
 							<li><a href="#abt" class="scrolly"> About Us</a></li>
 							<li><a href="#contcts" class="scrolly"> Contacts</a></li>
-							<li>
+							<li id="logintab">
 								<a href="#">Login</a>
 								<ul>
 									<li>
-										<form name="" action="">
-											<input type="text" name="userid" />
-											<input type="text" name="pass" />
+										<form name="" action="" class="log">
+											<input type="text" name="userid" placeholder="Username" />
+											<input type="text" name="pass" placeholder="Password" />
 											<input type="submit" value="Login" />
+											<input type="submit" value="Register" />
 										</form>
 									</li>
 								</ul>
@@ -393,6 +404,7 @@
 		<script src="js/skel.min.js"></script>
 		<script src="js/scrollReveal.min.js"></script>
 		<script src="js/skrollr.min.js"></script>
+		<script src="js/jpreloader.min.js"></script>
 		<script src="js/jquery.color.js"></script>
 		
 		
@@ -412,5 +424,6 @@
       		
 
     	</script>
+    	
 	</body>
 </html>

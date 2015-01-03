@@ -314,6 +314,9 @@ function onReady(callback) {
     }
 }
 
+
+
+
 $(document).ready(function(){
 	
 	
@@ -406,7 +409,15 @@ if(is_firefox)
 	});
 	
 	
-	
+	 $('body').jpreLoader({
+        splashID: "#jSplash",
+        showSplash: true,
+        showPercentage: true,
+        autoClose: true,
+        splashFunction: function() {
+            $('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
+        }
+    });
 	
 	
 	
