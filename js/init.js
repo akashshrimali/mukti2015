@@ -319,6 +319,16 @@ function onReady(callback) {
 
 $(document).ready(function(){
 	
+	$('body').jpreLoader({
+        splashID: "#jSplash",
+        showSplash: true,
+        showPercentage: true,
+        autoClose: true,
+        splashFunction: function() {
+            $('#circle').delay(25).animate({'opacity' : 1}, 500, 'linear');
+        }
+    });
+	
 	
 	var width=$('.muktivid').outerWidth();
 	var height=width*0.5625;
