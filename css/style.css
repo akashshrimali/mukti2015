@@ -871,9 +871,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', end
 	left: 50%;
 	z-index: 11;
 	margin: -50px 0 0 -50px;
-	width: 100px;
-	height: 100px;
-	background: #2fd8a6;
+	width: 200px;
+	height: 200px;
+	background:url('../images/shattered_@2X.png');
 	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
 	border-radius: 999px;
