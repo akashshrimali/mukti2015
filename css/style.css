@@ -772,6 +772,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', end
 			background-size: 100% auto;
 			background-position:center;
 		}
+		.wrapper.style7
+		{
+			background-image:url('../images/shattered_@2X.png');
+			color:#ffffde;
+
+		}
+		.wrapper.style7 section header h1,h2,h3,h4,h5,h6,p
+		{
+			color: #ffffde;
+		}
 		.wrapper.style4 h1,h2,h3,h4,h5,h6,p
 		{
 			color: #fff;
@@ -890,13 +900,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', end
 				background: rgba(192,192,192,0.35);
 			}
 		
-		#abt section header h2,h3,h4
+		#abt>section>header h2,h3,h4
+		{
+			color: #000;
+		}
+		.emerg.abt
 		{
 			color: #000;
 		}
 		#abt section .row
 		{
 			margin-top: 2em;
+		}
+		
+		.sponsors
+		{
+			padding: 4em 0 1em 0;
 		}
 		
 		.abtcard
@@ -916,6 +935,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', end
 		.abtcard.c2
 		{
 			border-right: 5px solid #f2576e;
+		}
+		.contactinfo
+		{
+			color:#fff;
+			text-align: center;
+			display: inline-block;
+		}
+		.contactinfo.special>p,h1,h2,h3,h4,h5,h6
+		{
+			text-align:center;
+			color: #fff;
+		}
+		.contactinfo img
+		{
+			height: 17em;
+			margin-left:auto;
+			margin-right:auto;
+			display: block;
 		}
 		
 /*********************************************************************************/

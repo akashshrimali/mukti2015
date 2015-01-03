@@ -332,8 +332,9 @@ if(is_chrome)
 {
 			var off1=$('#header').outerHeight()+100;
 			var off2=off1+ $('.carousel').outerHeight() + $('#banner').outerHeight();
-			var off3=off2+ $('.mktivid').outerHeight()+90;
+			var off3=off2+ $('.mktivid').outerHeight()+50;
 			var off4=off3+ $('#tlks').outerHeight();
+			var off5 = off4 + $('#abt').outerHeight() -20;
 }
 	
 if(is_firefox)
@@ -342,6 +343,7 @@ if(is_firefox)
 	var off2=$('#mktivideo').offset().top + 20;
 	var off3=$('#tlks').offset().top + 20;
 	var off4=$('#abt').offset().top + 20;
+	var off5=$('#contcts').offset().top +20;
 	
 }
 	
@@ -385,13 +387,21 @@ if(is_firefox)
 			dropt.css('color','#fff');
 			social.css('background-color','#474566');
 		}
-		if(scrollTop >= off4)
+		if(scrollTop >= off4 && scrollTop < off5)
 		{
 			nav.css('border-color','transparent');
 			nav.css('background-color','#fff');
 			nav.css('color','#000');
 			dropt.css('color','#000');
 			social.css('background-color','#f2576e');
+		}
+		if(scrollTop >= off5)
+		{
+			nav.css('border-color','transparent');
+			nav.css('background-color','#fff');
+			nav.css('color','#000');
+			dropt.css('color','#000');
+			social.css('background-color','#2a92d3');
 		}		
 	});
 	
