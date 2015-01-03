@@ -325,7 +325,7 @@ $(document).ready(function(){
         showPercentage: true,
         autoClose: true,
         splashFunction: function() {
-            $('#circle').delay(25).animate({'opacity' : 1}, 500, 'linear');
+            $('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
         }
     });
 	
@@ -419,15 +419,7 @@ if(is_firefox)
 	});
 	
 	
-	 $('body').jpreLoader({
-        splashID: "#jSplash",
-        showSplash: true,
-        showPercentage: true,
-        autoClose: true,
-        splashFunction: function() {
-            $('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
-        }
-    });
+	 
 	
 	
 	
