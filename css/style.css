@@ -821,7 +821,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', end
 
 #jpreOverlay,
 #jSplash {
-	background-color: #2F3238;
+	background-color: #474566;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -871,9 +871,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', end
 	left: 50%;
 	z-index: 11;
 	margin: -50px 0 0 -50px;
-	width: 200px;
-	height: 200px;
-	background:url('../images/shattered_@2X.png');
+	width: 100px;
+	height: 100px;
+	background: #48BD82;
 	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
 	border-radius: 999px;
