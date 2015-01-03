@@ -316,7 +316,7 @@ function onReady(callback) {
 
 $(document).ready(function(){
 	
-	alert("This site is best viewed in Chrome and/or Opera");
+	
 	var width=$('.muktivid').outerWidth();
 	var height=width*0.5625;
 	$('.muktivid').css("height",height);
