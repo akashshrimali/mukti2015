@@ -1577,6 +1577,11 @@ box-shadow:         3px 3px 13px 0px rgba(50, 50, 50, 0.35);
 			-webkit-overflow-scrolling: touch;
 			padding: 0 2em 0 2em;
 		}
+		.reel article header h3
+		{
+			font-size:1.6em;
+			color: #000;
+		}
 	
 		.carousel article
 		{
