@@ -418,7 +418,6 @@ if(is_firefox)
         autoClose: true,
         splashFunction: function() {
             $('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
-           
         }
     });
 	
