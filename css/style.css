@@ -20,7 +20,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37354f', end
 
 		color: #5b5b5b;
 	}
-
+	
 		body.is-loading *
 		{
 			-moz-transition: none !important;
@@ -822,10 +822,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', end
 #jpreOverlay,
 #jSplash {
 	background-color: #474566;
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	height: 100%;
 	z-index: 700;
+}
+.cont
+{
+
 }
 
 #jpreSlide{
@@ -866,10 +870,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', end
 }
 
 #circle {
-	position: absolute;
+	position: fixed;
 	top: 50%;
 	left: 50%;
-	z-index: 11;
+	z-index: 701;
 	margin: -50px 0 0 -50px;
 	width: 100px;
 	height: 100px;
