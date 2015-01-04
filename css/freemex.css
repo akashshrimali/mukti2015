@@ -10,6 +10,10 @@
 		font-family: 'Open Sans Light';
 		src:url(../fonts/OpenSans-Light.ttf);
 	}
+	@font-face 
+	{
+		 font-family: 'FontAwesome'; src:url('../fonts/FontAwesome.otf');
+	 }
 body  {
 	background: url('../images/header.svg'), #83399b;
 	background-size:100% 1000px;
