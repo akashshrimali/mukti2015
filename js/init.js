@@ -419,6 +419,9 @@ if(is_firefox)
         splashFunction: function() {
             $('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
         }
+    },function(){
+    	$('#nav').append('<img src="images/final logo.png" id="navlogo"/>');
+    	
     });
 	
 	
