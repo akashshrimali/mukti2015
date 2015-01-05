@@ -322,9 +322,7 @@ $(document).ready(function(){
 	
 	
 	
-	var width=$('.muktivid').outerWidth();
-	var height=width*0.5625;
-	$('.muktivid').css("height",height);
+	
 	
 	// nav animation
 	
@@ -344,6 +342,7 @@ if(is_chrome)
 	
 if(is_firefox)
 {
+	alert("This site is best viewed in Chrome and/or Opera")
 	var off1=$('#banner').offset().top + 20;
 	var off2=$('#mktivideo').offset().top + 20;
 	var off3=$('#tlks').offset().top + 20;
@@ -352,7 +351,9 @@ if(is_firefox)
 	
 }
 	
-		
+	var width=$('.muktivid').outerWidth();
+	var height=width*0.5625;
+	$('.muktivid').css("height",height);
 			
 	var nav=$('#nav,.dropotron');
 	var dropt=$('.dropotron li');
