@@ -325,7 +325,7 @@ $(document).ready(function(){
 	
 	
 	// nav animation
-	
+
 	var is_chrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
 	var is_firefox = typeof InstallTrigger !== 'undefined';   // Firefox 1.0+
 
@@ -333,34 +333,46 @@ $(document).ready(function(){
 
 if(is_chrome)
 {
-			var off1=$('#header').outerHeight()+100;
+		/*	var off1=$('#header').outerHeight()+100;
 			var off2=off1+ $('.carousel').outerHeight() + $('#banner').outerHeight();
-			var off3=off2+ $('.mktivid').outerHeight()+50;
+			var off3=$('#tlks').offset().top + 20;
 			var off4=off3+ $('#tlks').outerHeight();
-			var off5 = off4 + $('#abt').outerHeight() -20;
+			var off5 = off4 + $('#abt').outerHeight() -20; */
+			var width=$('.muktivid').outerWidth();
+			var height=width*0.5625;
+			$('.muktivid').css("height",height);
 }
 	
 if(is_firefox)
 {
-	alert("This site is best viewed in Chrome and/or Opera")
-	var off1=$('#banner').offset().top + 20;
+	/*var off1=$('#banner').offset().top + 20;
 	var off2=$('#mktivideo').offset().top + 20;
 	var off3=$('#tlks').offset().top + 20;
 	var off4=$('#abt').offset().top + 20;
-	var off5=$('#contcts').offset().top +20;
+	var off5=$('#contcts').offset().top +20; */
+	$('.muktivid').css("height",540);
+	$(this).css("width",304);
+	$(this).css("display","block");
+	$(this).css("margin-left","auto");
+	$(this).css("margin-right","auto");
 	
 }
-	
-	var width=$('.muktivid').outerWidth();
-	var height=width*0.5625;
-	$('.muktivid').css("height",height);
+	$('#nav').click(function(){
+			alert($(this).offset().top);
+		})
+		
 			
 	var nav=$('#nav,.dropotron');
 	var dropt=$('.dropotron li');
 	var social=$('.social');
 	$(window).scroll(function(){
-		var scrollTop=$(window).scrollTop();
-
+		var off1=$('#banner').offset().top + 20;
+	var off2=$('#mktivideo').offset().top;
+	var off3=$('#tlks').offset().top;
+	var off4=$('#abt').offset().top;
+	var off5=$('#contcts').offset().top;
+		var scrollTop=$('#nav').offset().top;
+		
 		if(scrollTop >= off1 && scrollTop < off2)
 		{
 			nav.css('border-color','transparent');

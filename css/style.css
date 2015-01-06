@@ -421,7 +421,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37354f', end
 						text-align: center;
 						border-radius: 100%;
 						border: 0;
-						color: inherit;
+						color: #fff;
 					}
 					
 						ul.icons li a:hover
@@ -755,24 +755,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fb8034', end
 color:#fff;
 		}
 		
-		.wrapper.style5
-		{
-			background:url('../images/bgtr.svg'), rgb(48,186,114); /* Old browsers */
-background:url('../images/bgtr.svg'), -moz-linear-gradient(-45deg,  rgba(48,186,114,1) 0%, rgba(204,246,164,1) 100%); /* FF3.6+ */
-background:url('../images/bgtr.svg'), -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(48,186,114,1)), color-stop(100%,rgba(204,246,164,1))); /* Chrome,Safari4+ */
-background:url('../images/bgtr.svg'), -webkit-linear-gradient(-45deg,  rgba(48,186,114,1) 0%,rgba(204,246,164,1) 100%); /* Chrome10+,Safari5.1+ */
-background:url('../images/bgtr.svg'), -o-linear-gradient(-45deg,  rgba(48,186,114,1) 0%,rgba(204,246,164,1) 100%); /* Opera 11.10+ */
-background:url('../images/bgtr.svg'), -ms-linear-gradient(-45deg,  rgba(48,186,114,1) 0%,rgba(204,246,164,1) 100%); /* IE10+ */
-background:url('../images/bgtr.svg'), linear-gradient(135deg,  rgba(48,186,114,1) 0%,rgba(204,246,164,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', endColorstr='#ccf6a4',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		
 
 
-		}
+		
 		.wrapper.style6
 		{
-			background: url("../images/bgbl.svg") fixed, url("../images/bgtr.svg") fixed, url("../images/10.jpg") fixed;
-			background-size: 100% auto;
+			background:url("../images/10.jpg") fixed;
+			background-size:cover;
 			background-position:center;
+			
 		}
 		.wrapper.style7
 		{
@@ -1128,7 +1120,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30ba72', end
 		left: 2.5%;
 		width: 95%;
 		text-align: center;
-		padding: 0.5em 0 0.5em 0;
+		padding: 0.4em 0 0.4em 0;
 		z-index: 10;
 		overflow: hidden;
 		border: 1px solid rgba(230,230,230,0.7);
@@ -1145,7 +1137,7 @@ box-shadow:         3px 3px 13px 0px rgba(50, 50, 50, 0.35);
 		background-color: rgba(250,250,250,0.2);
 		float: right;
 		margin: 0.4em 2em 0.2em 2em;
-		padding: 0.7em 1em 0.5em 1em;
+		padding: 0.4em 1em 0.25em 1em;
 		transition: all 1s;
 	}
 	.social ul
@@ -1189,7 +1181,7 @@ box-shadow:         3px 3px 13px 0px rgba(50, 50, 50, 0.35);
 	{
 		height: 2.2em;
 		float: left;
-		margin: 1em 0 1em 2em;
+		margin: 0.7em 0 0.7em 2em;
 	}
 		#nav > ul
 		{
