@@ -366,14 +366,14 @@ if(is_firefox)
 	var dropt=$('.dropotron li');
 	var social=$('.social');
 	$(window).scroll(function(){
-		var off1=$('#banner').offset().top + 20;
-//	var off2=$('#mktivideo').offset().top;
-	var off3=$('#tlks').offset().top;
+	var off1=$('#banner').offset().top + 20;
+	var off3=$('#sponsors').offset().top;
+	var off2=$('#tlks').offset().top;
 	var off4=$('#abt').offset().top;
 	var off5=$('#contcts').offset().top;
 		var scrollTop=$('#nav').offset().top;
 		
-		if(scrollTop >= off1 && scrollTop < off3)
+		if(scrollTop >= off1 && scrollTop < off2)
 		{
 			nav.css('border-color','transparent');
 			nav.css('background-color','#474566');
@@ -389,27 +389,23 @@ if(is_firefox)
 			dropt.css('color','#fff')
 			social.css('background-color','rgba(250,250,250,0.2)');
 		}
-/*		if(scrollTop >= off2 && scrollTop < off3)
+		if(scrollTop >= off2 && scrollTop < off3)
 		{
 			nav.css('border-color','transparent');
 			nav.css('background-color','#eaeaea');
 			nav.css('color','#000');
 			dropt.css('color','#000');
 			social.css('background-color','#0a88d6');
-		} */
+		} 
 		if(scrollTop >= off3 && scrollTop < off4)
 		{
-		/*	nav.css('border-color','transparent');
-			nav.css('background-color','#feb076');
-			nav.css('color','#fff');
-			dropt.css('color','#fff');
-			social.css('background-color','#474566'); */
-			
 			nav.css('border-color','transparent');
-			nav.css('background-color','#eaeaea');
-			nav.css('color','#000');
-			dropt.css('color','#000');
-			social.css('background-color','#0a88d6');
+			nav.css('background-color','#feb076');
+			nav.css('color','#474566');
+			dropt.css('color','#474566');
+			social.css('background-color','#474566');  
+			
+			
 		}
 		if(scrollTop >= off4 && scrollTop < off5)
 		{

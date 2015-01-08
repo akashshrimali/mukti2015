@@ -275,7 +275,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37354f', end
 			{
 				display: block;
 				width: 100%;
-				margin: 0 0 2em 0;
+				margin: 0 0 0.8em 0;
 				position: relative;
 				overflow: hidden;
 			}
@@ -717,7 +717,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f76c83', end
 
 		.wrapper.style2
 		{
-			padding-top: 0;
+			
 			background:url('../images/overlay.svg') , rgb(239,246,247); /* Old browsers */
 background:url('../images/overlay.svg') , -moz-linear-gradient(left,  rgba(239,246,247,1) 0%, rgba(221,219,224,1) 100%); /* FF3.6+ */
 background:url('../images/overlay.svg') , -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(239,246,247,1)), color-stop(100%,rgba(221,219,224,1))); /* Chrome,Safari4+ */
@@ -774,9 +774,12 @@ color:#fff;
 		}
 		.wrapper.style8
 		{
-			background: url('../images/header.svg') fixed, #0982bf;
+			background: url('../images/header.svg') fixed, #2e7a55;
 			background-size: cover,cover;
-
+		}
+		.wrapper.style9
+		{
+			
 		}
 		.wrapper.style7 section header h1,h2,h3,h4,h5,h6,p
 		{
@@ -786,7 +789,14 @@ color:#fff;
 		{
 			color: #fff;
 		}
-		
+		.emerg1
+		{
+			color: #2a92d3;
+		}
+		.hold1
+		{
+			border: 1px solid #2a92d3;
+		}
 		#logintab
 		{
 			padding:0.5em;
@@ -1767,4 +1777,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 				left: 0.5em;
 				opacity:0.9;
 				display: none;
+			}
+			
+			#rndm1
+			{
+				margin-bottom: 0.5em;
+			}
+			#rndm2 li
+			{
+				font-size: 0.9em;
+				cursor: pointer;
+			}
+			.segmt
+			{
+				border-right: 1px groove rgba(157, 155, 181, 0.7);
 			}
