@@ -15,8 +15,8 @@
 		 font-family: 'FontAwesome'; src:url('../fonts/FontAwesome.otf');
 	 }
 body  {
-	background: url('../images/header.svg'), #e67e22;
-	background-size:100% 1000px;
+	background:url('../images/codecracker.jpg');
+	background-size:cover;
 	font-family: 'Open Sans Light';
 }
 h1
@@ -45,8 +45,10 @@ p
 }
 .info
 {
-	color:#fff;
+	color:#000;
 	padding: 2em;
+	background: rgba(256,256,256,0.9);
+	border: 2px groove #0982bf;
 }
 .info span
 {
@@ -54,19 +56,44 @@ p
 }
 .info p,h1,h2,h3,h4,h5,h6
 {
-	color: inherit;
+	color: #000;
 	text-align: left;
 }
 .butn
 {
 	padding: 1em;
-	border: 2px solid #fff;
+	border: 2px solid transparent;
 	font-size: 1.2em;
+	color: #fff;
+	background: rgb(10, 136, 214);
+	
+	transition: all 0.2s;
+	-webkit-transiion:all 0.2s;
+	-moz-transition:all 0.2s;
+	-o-transition:all 0.2s;
+	
+}
+.bttnwrap
+{
+	margin-top: 2em;
+	perspective: 1000px;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
 }
 .butn:hover
 {
-	background: #fff;
-	color: #e67e22;
+	background: #000;
+	color: #fff;
+	transform: scale(1.25);
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	
+	transition: all 0.5s;
+	-webkit-transiion:all 0.5s;
+	-moz-transition:all 0.5s;
+	-o-transition:all 0.5s;
 }
 .evntimgholder
 {
@@ -89,7 +116,12 @@ p
 	transition: all 0.2s;
 }
 .container {
-	padding: 80px;
+	padding: 80px 80px 0 80px;
+}
+.cont
+{
+	color: #000;
+	margin-top: 5em;
 }
 
 .bt-menu {
@@ -123,7 +155,14 @@ p
 .bt-menu-open .bt-overlay {
 	height: 100%;
 }
-
+.bt-menu-bg
+{
+	position: fixed;
+	top: 10px;
+	left: 0;
+	padding: 30px 40px;
+	background: #333;
+}
 .bt-menu-trigger {
 	position: fixed;
 	top: 15px;
@@ -260,7 +299,7 @@ p
 }
 
 .bt-menu ul li a:before {
-	color: #e67e22;
+	color: #ffffde;
 	font-size: 48px;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;

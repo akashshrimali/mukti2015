@@ -15,8 +15,8 @@
 		 font-family: 'FontAwesome'; src:url('../fonts/FontAwesome.otf');
 	 }
 body  {
-	background: url('../images/header.svg'), #00a489;
-	background-size:100% 1000px;
+	background:url('../images/digifort.jpg');
+	background-size:cover,cover;
 	font-family: 'Open Sans Light';
 }
 h1
@@ -45,8 +45,10 @@ p
 }
 .info
 {
-	color:#fff;
+	color:#000;
 	padding: 2em;
+	background: rgba(256,256,256,0.9);
+	border: 2px solid #104493;
 }
 .info span
 {
@@ -54,19 +56,44 @@ p
 }
 .info p,h1,h2,h3,h4,h5,h6
 {
-	color: inherit;
+	color: #000;
 	text-align: left;
 }
 .butn
 {
 	padding: 1em;
-	border: 2px solid #fff;
+	border: 2px solid rgba(0,0,0,0.6);
 	font-size: 1.2em;
+	color: #000;
+	background: rgba(256,256,256,0.95);
+	
+	transition: all 0.2s;
+	-webkit-transiion:all 0.2s;
+	-moz-transition:all 0.2s;
+	-o-transition:all 0.2s;
+	
+}
+.bttnwrap
+{
+	margin-top: 5em;
+	perspective: 1000px;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
 }
 .butn:hover
 {
-	background: #fff;
-	color: #00a489;
+	background: #000;
+	color: #fff;
+	transform: scale(1.25);
+	-webkit-transform: scale(1.25);
+	-moz-transform: scale(1.25);
+	-o-transform: scale(1.25);
+	
+	transition: all 0.5s;
+	-webkit-transiion:all 0.5s;
+	-moz-transition:all 0.5s;
+	-o-transition:all 0.5s;
 }
 .evntimgholder
 {
@@ -89,7 +116,12 @@ p
 	transition: all 0.2s;
 }
 .container {
-	padding: 80px;
+	padding: 80px 80px 0 80px;
+}
+.cont
+{
+	color: #000;
+	margin-top: 10em;
 }
 
 .bt-menu {
@@ -260,7 +292,7 @@ p
 }
 
 .bt-menu ul li a:before {
-	color: #00a489;
+	color: #1054ba;
 	font-size: 48px;
 	-webkit-transition: color 0.2s;
 	transition: color 0.2s;

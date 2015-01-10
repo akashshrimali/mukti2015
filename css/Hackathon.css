@@ -15,7 +15,7 @@
 		 font-family: 'FontAwesome'; src:url('../fonts/FontAwesome.otf');
 	 }
 body  {
-	background:url('../images/treasure.jpg');
+	background:url('../images/hackathon.jpg');
 	background-size:cover;
 	font-family: 'Open Sans Light';
 }
@@ -48,7 +48,7 @@ p
 	color:#000;
 	padding: 2em;
 	background: rgba(256,256,256,0.9);
-	border: 2px groove #0982bf;
+	border: 2px groove #ff5b74;
 }
 .info span
 {
@@ -65,7 +65,7 @@ p
 	border: 2px solid transparent;
 	font-size: 1.2em;
 	color: #fff;
-	background: #193a66;
+	background: #910032;
 	
 	transition: all 0.2s;
 	-webkit-transiion:all 0.2s;
