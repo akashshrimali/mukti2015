@@ -357,16 +357,14 @@ if(is_firefox)
 	$(this).css("margin-right","auto");
 	
 }
-	$('#nav').click(function(){
-			alert($(this).offset().top);
-		})
+	
 		
 			
 	var nav=$('#nav,.dropotron');
 	var dropt=$('.dropotron li');
 	var social=$('.social');
 	$(window).scroll(function(){
-	var off1=$('#banner').offset().top + 20;
+	var off1=$('#banner').offset().top;
 	var off3=$('#sponsors').offset().top;
 	var off2=$('#tlks').offset().top;
 	var off4=$('#abt').offset().top;
@@ -435,7 +433,7 @@ if(is_firefox)
             $('#circle').delay(250).animate({'opacity' : 1}, 500, 'linear');
         }
     },function(){
-    	$('#nav').append('<img src="images/final logo.png" id="navlogo"/>');
+    	$('#nav').append('<a href="#"><img src="images/final logo.png" id="navlogo"/></a>');
     	
     });
 	
