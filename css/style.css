@@ -722,13 +722,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f76c83', end
 		.wrapper.style2
 		{
 			
-			background:url('../images/overlay.svg') , rgb(239,246,247); /* Old browsers */
-background:url('../images/overlay.svg') , -moz-linear-gradient(left,  rgba(239,246,247,1) 0%, rgba(221,219,224,1) 100%); /* FF3.6+ */
-background:url('../images/overlay.svg') , -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(239,246,247,1)), color-stop(100%,rgba(221,219,224,1))); /* Chrome,Safari4+ */
-background:url('../images/overlay.svg') , -webkit-linear-gradient(left,  rgba(239,246,247,1) 0%,rgba(221,219,224,1) 100%); /* Chrome10+,Safari5.1+ */
-background:url('../images/overlay.svg') , -o-linear-gradient(left,  rgba(239,246,247,1) 0%,rgba(221,219,224,1) 100%); /* Opera 11.10+ */
-background:url('../images/overlay.svg') , -ms-linear-gradient(left,  rgba(239,246,247,1) 0%,rgba(221,219,224,1) 100%); /* IE10+ */
-background:url('../images/overlay.svg') , linear-gradient(to right,  rgba(239,246,247,1) 0%,rgba(221,219,224,1) 100%); /* W3C */
+			background: rgb(239,246,247); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(239,246,247,1) 0%, rgba(221,219,224,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(239,246,247,1)), color-stop(100%,rgba(221,219,224,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(239,246,247,1) 0%,rgba(221,219,224,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(239,246,247,1) 0%,rgba(221,219,224,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(239,246,247,1) 0%,rgba(221,219,224,1) 100%); /* IE10+ */
+background: linear-gradient(to right,  rgba(239,246,247,1) 0%,rgba(221,219,224,1) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff6f7', endColorstr='#dddbe0',GradientType=1 ); /* IE6-9 */
 background-size:cover;
 	color: #fff;
@@ -1795,4 +1795,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			.segmt
 			{
 				border-right: 1px groove rgba(157, 155, 181, 0.7);
+			}
+			#rndm3
+			{
+				padding: 1.5em 0 1.5em 0;
 			}
