@@ -364,6 +364,7 @@ if(is_firefox)
 	var dropt=$('.dropotron li');
 	var social=$('.social');
 	$(window).scroll(function(){
+		var off0=$('#keynote').offset().top;
 	var off1=$('#banner').offset().top;
 	var off3=$('#sponsors').offset().top;
 	var off2=$('#tlks').offset().top;
@@ -371,6 +372,14 @@ if(is_firefox)
 	var off5=$('#contcts').offset().top;
 		var scrollTop=$('#nav').offset().top;
 		
+		if(scrollTop >= off0 && scrollTop < off1)
+		{
+			nav.css('border-color','transparent');
+			nav.css('background-color','#fff');
+			nav.css('color','#000');
+			dropt.css('color',"#000");
+			social.css('background-color','#48bd82');
+		}
 		if(scrollTop >= off1 && scrollTop < off2)
 		{
 			nav.css('border-color','transparent');
@@ -379,7 +388,7 @@ if(is_firefox)
 			dropt.css('color',"#fff");
 			social.css('background-color','#48bd82');
 		}
-		if(scrollTop < off1)
+		if(scrollTop < off0)
 		{
 			nav.css('border-color','rgba(230,230,230,0.7)');
 			nav.css('background-color','rgba(92, 90, 122, 0.4)');
@@ -398,10 +407,10 @@ if(is_firefox)
 		if(scrollTop >= off3 && scrollTop < off4)
 		{
 			nav.css('border-color','transparent');
-			nav.css('background-color','#feb076');
-			nav.css('color','#474566');
-			dropt.css('color','#474566');
-			social.css('background-color','#474566');  
+			nav.css('background-color','#eaeaea');
+			nav.css('color','#000');
+			dropt.css('color','#000');
+			social.css('background-color','#0a88d6');  
 			
 			
 		}
