@@ -717,7 +717,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37354f', end
 		{
 			padding-top:3em;
 			margin-top: 3em;
-			width: 5em;
+			width: 3em;
 			transition:all 0.2s;
 			-webkit-transition:all 0.2s;
 			-moz-transition:all 0.2s;
@@ -824,13 +824,6 @@ color:#fff;
 		.wrapper.style9
 		{
 			background: rgb(63,76,107); /* Old browsers */
-background: -moz-linear-gradient(left,  rgba(63,76,107,1) 0%, rgba(14,115,178,1) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(63,76,107,1)), color-stop(100%,rgba(14,115,178,1))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left,  rgba(63,76,107,1) 0%,rgba(14,115,178,1) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left,  rgba(63,76,107,1) 0%,rgba(14,115,178,1) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left,  rgba(63,76,107,1) 0%,rgba(14,115,178,1) 100%); /* IE10+ */
-background: linear-gradient(to right,  rgba(63,76,107,1) 0%,rgba(14,115,178,1) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3f4c6b', endColorstr='#0e73b2',GradientType=1 ); /* IE6-9 */
 
 
 
@@ -1889,6 +1882,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			#rndm1
 			{
 				margin-bottom: 0.5em;
+			}
+			#rndm2
+			{
+				padding-top: 2em;
 			}
 			#rndm2 li
 			{
@@ -2979,7 +2976,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .tabs-style-linebox nav a:hover,
 .tabs-style-linebox nav a:focus {
-	color: #2CC185;
+	color: #f2576e;
 }
 
 .tabs-style-linebox nav li.tab-current a {
@@ -3011,7 +3008,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .tabs-style-linebox nav a:hover::after,
 .tabs-style-linebox nav a:focus::after,
 .tabs-style-linebox nav li.tab-current a::after {
-	background: #2CC185;
+	background: #f2576e;
 }
 
 @media screen and (max-width: 58em) {
@@ -3462,7 +3459,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .spwrap
 {
-	
+}
+.tabs nav ul li a
+{
+	width: 12em;
+}
+.tabs nav ul
+{
+	display: inline;
+}
+.tabs nav ul li
+{
+	display: inline-block;
+	margin: 3em;
 }
 /* Fallback */
 .no-js .content-wrap section {

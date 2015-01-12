@@ -407,10 +407,10 @@ if(is_firefox)
 		if(scrollTop >= off3 && scrollTop < off4)
 		{
 			nav.css('border-color','transparent');
-			nav.css('background-color','#eaeaea');
-			nav.css('color','#000');
-			dropt.css('color','#000');
-			social.css('background-color','#0a88d6');  
+			nav.css('background-color','#474566');
+			nav.css('color','#fff');
+			dropt.css('color',"#fff");
+			social.css('background-color','#f76c83');
 			
 			
 		}
