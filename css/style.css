@@ -12,6 +12,15 @@
 		font-family: 'Modern';
 		src:url(../fonts/ModernCaveman.otf);
 	}
+	
+/* latin */
+@font-face {
+  font-family: 'Shadows Into Light Two';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Shadows Into Light Two'), local('ShadowsIntoLightTwo-Regular'), url(http://fonts.gstatic.com/s/shadowsintolighttwo/v4/gDxHeefcXIo-lOuZFCn2xbIfIbZrEcH2WW587lG91II.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
 	body
 	{
 		background: rgb(55,53,79); /* Old browsers */
@@ -707,6 +716,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37354f', end
 		.circled img
 		{
 			padding-top:3em;
+			margin-top: 3em;
 			width: 5em;
 			transition:all 0.2s;
 			-webkit-transition:all 0.2s;
@@ -1041,6 +1051,27 @@ box-shadow:         -3px 5px 19px 0px rgba(50, 50, 50, 0.48);
 	{
 		margin: 0.5em;
 	}
+	.key h3
+	{
+		font-size: 1.5em;
+	}
+	.key h3:first-child
+	{
+		margin-top: 2em;
+		text-align: left;
+	}
+	.key h2
+	{
+		margin-top: 1em;
+		font-size: 3em;
+	}
+	.key h3:last-child
+	{
+		margin-left: 5em;
+		margin-top: 0.7em;
+		font-size: 2em;
+
+	}
 	#key2
 	{
 		margin-left: 1em;
@@ -1283,7 +1314,7 @@ box-shadow:         3px 3px 13px 0px rgba(50, 50, 50, 0.35);
 }
 	#logo
 	{
-		font-family: 'Modern';
+		font-family: 'Shadows Into Light Two';
 	}
 	#logo span
 	{
@@ -1336,9 +1367,9 @@ box-shadow:         3px 3px 13px 0px rgba(50, 50, 50, 0.35);
 			#nav > ul > li
 			{
 				display: inline-block;
-				margin: -9px 0.5em 0 0.5em;
+				margin: -9px 0.4em 0 0.4em;
 				border-radius: 0.5em;
-				padding: 0.85em;
+				padding: 0.55em;
 				border: solid 1px transparent;
 				-moz-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
 				-webkit-transition: color 0.35s ease-in-out, border-color 0.35s ease-in-out;
@@ -1864,6 +1895,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 				font-size: 0.9em;
 				cursor: pointer;
 			}
+			#rndm2 li a
+			{
+				color: #f4f4f4;
+			}
 			.segmt
 			{
 				border-right: 1px groove rgba(157, 155, 181, 0.7);
@@ -1872,7 +1907,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			{
 				padding: 1.5em 0 1.5em 0;
 			}
-			
+			.rndm4 article
+			{
+				padding-top: 0 !important;
+				padding-left: 0 !important;
+			}
+			.rndm4 article h3
+			{
+				margin-top: 4em;
+			}
 			/* Effect */
 			
 			.exper {
@@ -1915,6 +1958,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	padding: 20px;
 	background: rgba(256,256,256,1);
 	color: #000;
+	border-top: 1px solid #53d491;
 }
 
 .exper figcaption h3 {
@@ -3323,7 +3367,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .tabs nav li.tab-current a {
-	color: #74777b;
+	color: #f4f4f4;
 }
 
 .tabs nav a:focus {
@@ -3418,7 +3462,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .spwrap
 {
-	background: rgba(256,256,256,0.03);
+	
 }
 /* Fallback */
 .no-js .content-wrap section {

@@ -15,6 +15,7 @@
 		
 		
 		<noscript>
+			<link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light+Two' rel='stylesheet' type='text/css'>
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/font-awesome.min.css" />
 			
@@ -33,7 +34,14 @@
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
 	<body class="homepage">
-		
+		<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=1491004191126023&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 		<div class="ole">
 			<section id="jSplash">
 				<div id="circle"> </div>
@@ -69,33 +77,37 @@
 						</div>
 						<ul>
 							<li><a href="index.html">Home</a></li>
+							<li><a href="#keynote" class="scrolly"> Keynote </a></li>
 							<li>
 								<a href="#banner" class="scrolly">Events</a>
-								<ul>
+								<!--<ul>
 									<li>
 										<a href="">Online Events &hellip;</a>
 										<ul>
+										<li><a href="Codecracker.html">CodeCracker</a></li>
 											<li><a href="TreasureHunt.html">Treasure Hunt</a></li>
-											<li><a href="Digitalfortress.html">Digital Fortress</a></li>
+											
 											<li><a href="FreePL.html">FreePL </a></li>
 											<li><a href="Freemex.html"> Freemex</a></li>
 										</ul>
 									</li>
 									<li><a href="shootball.html">Shootball</a></li>
+									<li><a href="Lipi.html">Lipi</a></li>
 									<li><a href="inCanity.html">InCanity</a></li>
-									<li><a href="Codecracker.html">CodeCracker</a></li>
-									<li><a href="Hackathon.html">Hackathon</a></li>
+									<li><a href="Scenes.html">Behind the Scenes</a></li>
 									
-								</ul>
+									
+									
+								</ul> -->
 							</li>
 							<!-- <li><a href="#mktivideo" class="scrolly">Video</a></li> -->
-							<li><a href="#tlks" class="scrolly">Talks</a></li>
+							<li><a href="#tlks" class="scrolly">Workshops</a></li>
 							<li><a href="#sponsors" class="scrolly">Sponsors</a></li>
 							<li><a href="#abt" class="scrolly"> About Us</a></li>
 							<li><a href="#contcts" class="scrolly"> Contacts</a></li>
-							<li id="logintab">
+							<!--<li id="logintab">
 								<a href="login.php">Login</a>
-							</li>
+							</li> -->
 						</ul>
 						
 					</nav>
@@ -103,12 +115,12 @@
 				<!-- Inner -->
 					<div class="inner">
 						<header>
-							<h1 data-sr="enter from the top and hustle 50px over 1.5s"><a href="index.html" id="logo"><!--<img src="images/final logo.png" style="height: 150px" /> --> MUKTI <span>2015</span></a></h1>
+							<h1 data-sr="enter from the top and hustle 50px over 1.5s"><a href="index.html" id="logo"><!--<img src="images/final logo.png" style="height: 150px" /> --> MUKTI 2015</a></h1>
 							<hr />
-							<p> Jan 30th - Feb 1st</p>
+							<p style="font-size:2em"> Jan 30th - Feb 1st</p>
 						</header>
 						<footer>
-							<a href="#banner" class="circled scrolly"><img src="images/down.png" /></a>
+							<a href="#keynote" class="circled scrolly"><img src="images/down.png" /></a>
 						</footer>
 					</div>
 				
@@ -119,12 +131,12 @@
 		<div class="wrapper style10" id="keynote">
 			
 			<div class="row">
-				<div class="7u key">
-					Featuring Keynote Speech by
+				<div class="7u key" data-sr="enter from left over 1.3s and move 100px">
+					<h3>Featuring Keynote Speech by</h3>
 					<h2> Amod Malviya </h2>
 					<h3> CTO, Flipkart </h3>
 				</div>
-				<div class="scene">
+				<div class="scene" data-sr="enter from right and move 20px">
 					<div class="movie" onclick="return true">
 							<div class="poster"></div>
 							<div class="info">
@@ -162,7 +174,7 @@
 						<figcaption>
 							<h3>Codecracker</h3>
 							 
-							<a href="Codecracker.html">Enter </a>
+						<!--	<a href="Codecracker.html">Enter </a> -->
 						</figcaption>
 					</figure>
 				</li>
@@ -172,7 +184,7 @@
 						<figcaption>
 							<h3> Online <br> Treasure Hunt</h3>
 							 
-							<a href="TreasureHunt.html">Enter </a>
+						<!--	<a href="TreasureHunt.html">Enter </a> -->
 						</figcaption>
 					</figure>
 				</li>
@@ -182,7 +194,7 @@
 						<figcaption>
 							<h3>FreePL</h3>
 							 
-							<a href="FreePL.html">Enter </a>
+						<!--	<a href="FreePL.html">Enter </a> -->
 						</figcaption>
 					</figure>
 				</li>
@@ -192,7 +204,7 @@
 						<figcaption>
 							<h3> Freemex</h3>
 							 
-							<a href="Freemex.html">Enter </a>
+						<!--	<a href="Freemex.html">Enter </a> -->
 						</figcaption>
 					</figure>
 				</li>
@@ -202,7 +214,7 @@
 						<figcaption>
 							<h3>Fantasy <br /> Shootball</h3>
 							 
-							<a href="shootball.html">Enter </a>
+						<!--	<a href="shootball.html">Enter </a> -->
 						</figcaption>
 					</figure>
 				</li>
@@ -212,7 +224,7 @@
 						<figcaption>
 							<h3> Lipi </h3>
 							 
-							<a href="">Enter </a>
+						<!--	<a href="">Enter </a> -->
 						</figcaption>
 					</figure>
 				</li>
@@ -222,20 +234,20 @@
 						<figcaption>
 							<h3> InCanity </h3>
 							 
-							<a href="inCanity.html">Enter </a>
+						<!--	<a href="inCanity.html">Enter </a> -->
 						</figcaption>
 					</figure>
 				</li>
-				<li>
+				<!--<li>
 					<figure>
 						<img src=" images/thumbs/lipi.png" alt="img06">
 						<figcaption>
-							<h3> Behind the Scenes </h3>
+							<h3> Behind the Scenes </h3> -->
 							 
-							<a href="">Enter </a>
-						</figcaption>
+						<!--	<a href="">Enter </a> -->
+						<!--</figcaption>
 					</figure>
-				</li>
+				</li> -->
 			</ul>
 				</div>
 			
@@ -261,16 +273,28 @@
 				
 				<section id="features" class="container special">
 					<header data-sr="enter top over 1s and move 110px wait 0.3s">
-						<h2 class="emerg1">Talks</h2>
+						<h2 class="emerg1"> Talks & Workshops</h2>
 						<p class="emerg1"> We are hosting lorem ipsum como estas estoy confundido</p>
 					</header>
 					
 					
 					
 						
-						<div class="row">
+						<div class="row rndm4">
 						<article class="3u -3u special" data-sr="enter left over 0.5s and move 150px wait 0.1s">
 							<a href="#" class="image featured hold1"><img class="tlk1" src="images/pic07.jpg" alt="" /></a>
+							
+							
+						</article>
+						<article class="3u special" data-sr="enter right over 0.5s and move 150px wait 0.1s">
+							<h3 class="emerg abt"> Workshop 1</h3>
+							
+							
+						</article>
+						</div>
+						<div class="row rndm4">
+						<article class="3u -3u special" data-sr="enter left over 0.5s and move 150px wait 0.1s">
+							<h3  class="emerg abt">Workshop 2</h3>
 							
 							
 						</article>
@@ -279,8 +303,23 @@
 							
 							
 						</article>
+						</div>
+						
+						<div class="row rndm4">
 						<article class="3u -3u special" data-sr="enter left over 0.5s and move 150px wait 0.1s">
 							<a href="#" class="image featured hold1"><img class="tlk1" src="images/pic09.jpg" alt="" /></a>
+							
+							
+						</article>
+						<article class="3u special" data-sr="enter right over 0.5s and move 150px wait 0.1s">
+							<h3 class="emerg abt">Workshop 3</h3>
+							
+							
+						</article>
+						</div>
+						<div class="row rndm4">
+								<article class="3u -3u special" data-sr="enter left over 0.5s and move 150px wait 0.1s">
+							<h3 class="emerg abt">Workshop 4</h3>
 							
 							
 						</article>
@@ -289,6 +328,7 @@
 							
 							
 						</article>
+						</div>
 						
 					
 				</div>
@@ -310,7 +350,7 @@
 				<div class="tabs tabs-style-line">
 					<nav>
 						<ul>
-							<li><a href="#section-line-1"><span> Present </span></a></li>
+							<li><a href="#section-line-1"><span> 2015 </span></a></li>
 							<li><a href="#section-line-2"><span> Past </span></a></li>
 							
 						</ul>
@@ -351,11 +391,11 @@
 							<h2 class="emerg abt"> Mukti</h2>
 					</div>  -->
 						<div class="abtcard 6u  c2" data-sr="enter left over 0.5s and move 50px">
-							<h2 class="emerg abt"> About Mukti</h2>
+							<h2 class="emerg abt"> Mukti</h2>
 							
 							<p> MUKTI, the only FOSS Festival of Eastern India, is a three-day meet at NIT Durgapur where we celebrate the freedom of Open Source.
 
-								Owing to the success attained by it in recent years, it attracts a lot of participation and has been a venue where students of various age groups and domains, professionals (of both IT and non-IT fields), enthusiasts and the curious have come together to get introduced to FOSS, interact with each other and share their experiences. The intense atmosphere of competition is doubled up with Talks and Workshops by few of the brightest and most active minds in the Indian Open Source community. We will host the 9th edition of our Annual Technical Symposium on Free and Open Source Software, Mukti ‘14 from the 31st of January to the 2nd of February, 2014. </p>
+								Owing to the success attained by it in recent years, it attracts a lot of participation and has been a venue where students of various age groups and domains, professionals (of both IT and non-IT fields), enthusiasts and the curious have come together to get introduced to FOSS, interact with each other and share their experiences. The intense atmosphere of competition is doubled up with Talks and Workshops by few of the brightest and most active minds in the Indian Open Source community. </p>
 						</div>
 						
 					</div>
@@ -379,7 +419,7 @@
 							
 							<h3> Promit Biswas </h3>
 							<h4> Convenor, Mukti 2015</h4>
-							<h4> +919062309109</h4>
+							<h4> +91 9062309109</h4>
 						</article>
 						<article class="3u -2u contactinfo special" data-sr="enter left over 0.5s and move 120px">
 							
@@ -399,11 +439,11 @@
 					
 					<div class="row">
 						<div class="4u segmt">
-							<h3 id="rndm1">Site Navigation </h3>
+							
 							<ul id="rndm2">
-								 <a><li> - To NITDGPLUG website</li></a>
-								<a><li> - To NITDGPLUG blog </li></a>
-								<a><li> - To NITDGPLUG forums </li></a>
+								 <a href="http://www.nitdgplug.org/" target="_blank"><li> - NITDGPLUG Home</li></a>
+								<a href="http://blog.nitdgplug.org/" target="_blank"><li> -  NITDGPLUG blog </li></a>
+								<a href="http://forum.nitdgplug.org/" target="_blank"><li> - NITDGPLUG forums </li></a>
 							</ul>
 							
 								
@@ -411,7 +451,7 @@
 							
 						</div>
 						<div class="4u segmt">
-							
+							<p style="font-size: 0.8em; text-align: center; line-height: 1.5em"> Mahatma Gandhi Avenue, A-Zone, Durgapur, West Bengal - 713209</p>
 							<iframe
   width="90%"
   height="200"
@@ -420,7 +460,7 @@
 </iframe>
 						</div>
 						<div class="4u">
-							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmuktinitdurgapur&width=350&layout=standard&action=like&show_faces=true&share=false&height=80&appId=183216621874530" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:350px; height:80px;" allowTransparency="true" style="margin:50px"></iframe>
+							<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmuktinitdurgapur&amp;width=350&amp;layout=standard&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=80&amp;appId=1491004191126023" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:400px; height:80px;" allowTransparency="true"></iframe>
 							
 							
 						</div>
