@@ -12,7 +12,17 @@
 		font-family: 'Modern';
 		src:url(../fonts/ModernCaveman.otf);
 	}
-	
+	@font-face
+{
+  font-family:'FontAwesome';
+  src:url('../fonts/fontawesome-webfont.eot');
+  src:url('../fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fontawesome-webfont.woff') format('woff'),
+      url('../fonts/fontawesome-webfont.ttf') format('truetype'),
+      url('../fonts/fontawesome-webfont.svg#FontAwesome') format('svg');
+  font-weight:normal;
+  font-style:normal
+}
 /* latin */
 @font-face {
   font-family: 'Shadows Into Light Two';
@@ -331,14 +341,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37354f', end
 					margin: 0 auto;
 					width: auto;
 				}
-				.tlk1
-				{
-					border-left: 4px solid #3d3b59;
-				}
-				.tlk2
-				{
-					border-right: 4px solid #fff;
-				}
+				
 	/* List */
 
 		ul
@@ -830,7 +833,7 @@ color:#fff;
 		}
 		.wrapper.style10
 		{
-			background: #cecece;
+			background: #f7f7f7;
 		}
 		.wrapper.style7 section header h1,h2,h3,h4,h5,h6,p
 		{
@@ -871,8 +874,59 @@ color:#fff;
 			margin-top: 0.5em;
 		}
 		
-		
-		
+		.note p
+		{
+			color: #37354f;
+			padding: 0.5em;
+			text-align: justify;
+		}
+		.note h3:nth-child(2)
+		{
+			font-size: 2.4em;
+		}
+		.note h3:first-child
+		{
+			font-size: 1.8em;
+		}
+		.note a
+		{
+			padding: 1em;
+			background: rgb(72, 189, 130);
+			color: #fff;
+			text-align: center;
+			width: 10em;
+			margin: 0 auto;
+			display: block;
+			border: 1px solid transparent;
+		}
+		.note a:hover
+		{
+			border: 1px solid rgb(72, 189, 130);
+			background: #fff;
+			color:rgb(72, 189, 130);
+		}
+		#amodwrap
+		{
+			overflow: hidden;
+		}
+		#amodwrap img
+		{
+			transform: scale(1.05);
+			-webkit-transform: scale(1.05);
+			-moz-transform: scale(1.05);
+			-o-transform: scale(1.05);
+			transition: all 0.4s;
+			-webkit-transition: all 0.4s;
+			-moz-transition: all 0.4s;
+			-o-transition: all 0.4s;
+		}
+		#amodwrap img:hover
+		{
+			transform: scale(1);
+			-webkit-transform: scale(1);
+			-moz-transform: scale(1);
+			-o-transform: scale(1);
+		}
 		
 /* ==================================================
    Preloader
@@ -1119,9 +1173,9 @@ box-shadow:         -3px 5px 19px 0px rgba(50, 50, 50, 0.48);
 			position: relative;
 			z-index: 1;
 			margin: 0;
-			padding: 14em 0 0 0;
+			padding: 20em 0 0 0;
 		}
-	
+		#header
 		#header h1
 		{
 			color: #fff;
@@ -1252,9 +1306,9 @@ box-shadow:         -3px 5px 19px 0px rgba(50, 50, 50, 0.48);
 		padding: 0.4em 0 0.4em 0;
 		
 		overflow: hidden;
-		border: 1px solid rgba(230,230,230,0.7);
+		border: 1px solid rgba(230,230,230,0.01);
 		transition:all 0.7s;
-		background: rgba(92, 90, 122, 0.4);
+		background: rgba(92, 90, 122, 0.6);
 		-webkit-box-shadow: 3px 3px 13px 0px rgba(50, 50, 50, 0.35);
 -moz-box-shadow:    3px 3px 13px 0px rgba(50, 50, 50, 0.35);
 box-shadow:         3px 3px 13px 0px rgba(50, 50, 50, 0.35);
@@ -1622,7 +1676,7 @@ box-shadow:         3px 3px 13px 0px rgba(50, 50, 50, 0.35);
 	{
 		position: relative;
 		overflow: hidden;
-		padding: 2em 0 1em 0;
+		padding: 2em 0 0 0;
 		background: #2b252c;
 		color: #fff;
 	}
@@ -1885,7 +1939,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			}
 			#rndm2
 			{
-				padding-top: 2em;
+				padding-left: 2em;
+				
 			}
 			#rndm2 li
 			{
@@ -1899,6 +1954,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 			.segmt
 			{
 				border-right: 1px groove rgba(157, 155, 181, 0.7);
+				height: 100px;
 			}
 			#rndm3
 			{
@@ -2973,7 +3029,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 #section-linebox-1 ul li a img
 {
-	width: 200px;
+	width: 240px;
 	display: block;
 }
 #section-linebox-2 ul
@@ -3493,6 +3549,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 .spwrap
 {
+	padding-left: 0;
 }
 .tabs nav ul li a
 {

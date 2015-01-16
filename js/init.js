@@ -378,7 +378,7 @@ if(is_firefox)
 			nav.css('background-color','#fff');
 			nav.css('color','#000');
 			dropt.css('color',"#000");
-			social.css('background-color','#48bd82');
+			social.css('background-color','#37354f');
 		}
 		if(scrollTop >= off1 && scrollTop < off2)
 		{
@@ -390,8 +390,8 @@ if(is_firefox)
 		}
 		if(scrollTop < off0)
 		{
-			nav.css('border-color','rgba(230,230,230,0.7)');
-			nav.css('background-color','rgba(92, 90, 122, 0.4)');
+			nav.css('border-color','rgba(230,230,230,0.01)');
+			nav.css('background-color','rgba(92, 90, 122, 0.6)');
 			nav.css('color','#fff');
 			dropt.css('color','#fff')
 			social.css('background-color','rgba(250,250,250,0.2)');
