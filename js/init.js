@@ -371,7 +371,14 @@ if(is_firefox)
 	var off4=$('#abt').offset().top;
 	var off5=$('#contcts').offset().top;
 		var scrollTop=$('#nav').offset().top;
-		
+		if(scrollTop > 100)
+		{
+			$('#dates').fadeOut();
+		}
+		if(scrollTop < 100)
+		{
+			$('#dates').fadeIn();
+		}
 		if(scrollTop >= off0 && scrollTop < off1)
 		{
 			nav.css('border-color','transparent');
